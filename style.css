@@ -1,0 +1,168 @@
+/* RESET E IMPOSTAZIONI GENERALI */
+
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #7FFFD4;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    width: 100%;
+}
+footer p {
+    margin-left: 50px;
+}
+header {
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 80px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    justify-content: space-around;
+}
+
+.container-header1 {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    
+}
+
+select {
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+#conteggio {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.griglia {
+    height: 450px;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.bottone {
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+   height: 50px;
+   width: 250px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1em;
+}
+
+.box10 {
+    height: 10%;
+    width: 10%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bomb10 {
+    height: 10%;
+    width: 10%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box9 {
+    height: calc(100% / 9);
+    width: calc(100% / 9);
+    border: 2px solid black;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box7 {
+    height: calc(100% / 7);
+    width: calc(100% / 7);
+    border: 2px solid black;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testop {
+    color: rgb(236, 145, 34);
+    font-size: 1.2em;
+}
+
+.vittoria {
+    background-color: yellow;
+}
+.box-toccato {
+    background-color: #6495ED;
+    color: white;
+}
+
+.rosso {
+    background-color: red;
+    color: black;
+}
+
+.inesploso {
+    background-color: rgb(245, 0, 204);
+    color: black;
+}
+
+.non-toccato {
+  background-color: rgb(19, 252, 252);
+    color: black;  
+}
+.none {
+    display: none;
+}
